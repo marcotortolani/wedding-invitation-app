@@ -64,7 +64,11 @@
     align-items: center;
     //justify-content: space-between;
 
-    background-color: $colorBackground2;
+    //background-color: $colorBackground2;
+    //background-image: url("../imgs/premium_black_texture_02.jpg");
+    //background: url("../imgs/premium_black_texture_01.jpg");
+
+    background: #000 url(/imgs/premium_black_texture_03.jpg) center center/cover no-repeat;
 
     header{
         width: 260px;
@@ -144,6 +148,7 @@
         font-weight: 400;
         font-size: 4.5rem;
         text-align: center;
+        text-shadow: 6px 6px 4px #000;
         //text-shadow: 3px 1px 8px darken($colorTitle, 50);
         color: $colorTitle;
      //background-color: bisque;
@@ -166,7 +171,7 @@
         width: 360px;
         position: absolute;
         top: 170px;
-        scale: 0.6;
+        scale: 0.5;
         //transition: scale 0.5s ease-in-out 0.2s;
         //-webkit-transition: scale 0.5s ease-in-out 0.2s;
         //-moz-transition: scale 0.5s ease-in-out 0.2s;
@@ -174,11 +179,13 @@
         //-o-transition: scale 0.5s ease-in-out 0.2s;
         animation: heartbeat 1.2s infinite;
         -webkit-animation: heartbeat 1.2s infinite;
+        filter: drop-shadow(10px 10px 10px #000);
+        -webkit-filter: drop-shadow(10px 10px 10px #000);
 }
-    .scale{
-        scale: 0.8;
+    // .scale{
+    //     scale: 0.6;
         
-}
+    // }
     
 
 //     .wrapper-picture{
@@ -233,6 +240,7 @@
             text-transform: uppercase;
             background-color: $colorTitle;
             color: $colorBackground2;
+            box-shadow: 7px 7px 6px #000;
             
             &:hover{
                 background-color: darken($colorTitle, 15);
@@ -276,11 +284,12 @@
     h1{
         width: 320px;
         margin-top: 0px;
-        margin-bottom: 20px;
+        //margin-bottom: 20px;
         font-family: $fontTitle;
         font-weight: 200;
         font-size: 3.2rem;
         text-align: center;
+        text-shadow: 6px 6px 4px #000;
     }
     h2,h3,h5{
         width: 280px;
@@ -308,6 +317,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
 
         button{
             width: 220px;
@@ -319,6 +329,7 @@
 
             color: $colorBackground;
             background-color: $colorText;
+            box-shadow: 7px 7px 6px #000;
 
             &:hover{
                 background-color: darken($colorTitle, 15);
@@ -354,6 +365,7 @@
         font-weight: 200;
         font-size: 3.2rem;
         text-align: center;
+        text-shadow: 6px 6px 4px #000;
     }
 
     .church, .saloon{
@@ -372,6 +384,8 @@
     img{
         width: 70px;
         margin: 5px 0;
+        filter: drop-shadow(10px 10px 10px #000);
+        -webkit-filter: drop-shadow(10px 10px 10px #000);
         
     }
     p{
@@ -393,6 +407,7 @@
 
             color: $colorBackground;
             background-color: $colorText;
+            box-shadow: 7px 7px 6px #000;
 
             &:hover{
                 background-color: darken($colorTitle, 15);
@@ -425,10 +440,13 @@
         font-weight: 200;
         font-size: 3rem;
         text-align: center;
+        text-shadow: 6px 6px 4px #000;
     }
     img{
         width: 60px;
         margin: 20px 0;
+        filter: drop-shadow(10px 10px 10px #000);
+        -webkit-filter: drop-shadow(10px 10px 10px #000);
     }
     .gifts{
         width: 300px;
@@ -458,14 +476,18 @@
 
 .us{
 
+    header{
+        margin-bottom: 20px;
+    }
     h1{
         width: 320px;
-        margin-top: 20px;
+        //margin-top: 20px;
         //margin-bottom: 10px;
         font-family: $fontTitle;
         font-weight: 200;
         font-size: 3.2rem;
         text-align: center;
+        text-shadow: 6px 6px 4px #000;
     }
 
 
@@ -518,6 +540,7 @@
         font-weight: 200;
         font-size: 3.2rem;
         text-align: center;
+        text-shadow: 6px 6px 4px #000;
     }
 
     p{

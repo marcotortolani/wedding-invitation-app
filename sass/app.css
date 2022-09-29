@@ -74,7 +74,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000;
+  background: #000 url(/imgs/premium_black_texture_03.jpg) center center/cover no-repeat;
 }
 .inicio header,
 .date header,
@@ -158,6 +158,7 @@
   font-weight: 400;
   font-size: 4.5rem;
   text-align: center;
+  text-shadow: 6px 6px 4px #000;
   color: rgb(255, 255, 255);
 }
 .inicio h2 {
@@ -171,12 +172,11 @@
   width: 360px;
   position: absolute;
   top: 170px;
-  scale: 0.6;
+  scale: 0.5;
   animation: heartbeat 1.2s infinite;
   -webkit-animation: heartbeat 1.2s infinite;
-}
-.inicio .scale {
-  scale: 0.8;
+  filter: drop-shadow(10px 10px 10px #000);
+  -webkit-filter: drop-shadow(10px 10px 10px #000);
 }
 .inicio a {
   display: flex;
@@ -195,6 +195,7 @@
   text-transform: uppercase;
   background-color: rgb(255, 255, 255);
   color: #000;
+  box-shadow: 7px 7px 6px #000;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -222,11 +223,11 @@
 .date h1 {
   width: 320px;
   margin-top: 0px;
-  margin-bottom: 20px;
   font-family: "Parisienne", cursive;
   font-weight: 200;
   font-size: 3.2rem;
   text-align: center;
+  text-shadow: 6px 6px 4px #000;
 }
 .date h2, .date h3, .date h5 {
   width: 280px;
@@ -260,6 +261,7 @@
   font-size: 1.3rem;
   color: rgb(8, 8, 8);
   background-color: rgb(231, 231, 231);
+  box-shadow: 7px 7px 6px #000;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -285,6 +287,7 @@
   font-weight: 200;
   font-size: 3.2rem;
   text-align: center;
+  text-shadow: 6px 6px 4px #000;
 }
 .party .church, .party .saloon {
   width: 360px;
@@ -300,6 +303,8 @@
 .party img {
   width: 70px;
   margin: 5px 0;
+  filter: drop-shadow(10px 10px 10px #000);
+  -webkit-filter: drop-shadow(10px 10px 10px #000);
 }
 .party p {
   width: 320px;
@@ -317,6 +322,7 @@
   font-size: 1.3rem;
   color: rgb(8, 8, 8);
   background-color: rgb(231, 231, 231);
+  box-shadow: 7px 7px 6px #000;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -342,10 +348,13 @@
   font-weight: 200;
   font-size: 3rem;
   text-align: center;
+  text-shadow: 6px 6px 4px #000;
 }
 .gift img {
   width: 60px;
   margin: 20px 0;
+  filter: drop-shadow(10px 10px 10px #000);
+  -webkit-filter: drop-shadow(10px 10px 10px #000);
 }
 .gift .gifts {
   width: 300px;
@@ -367,13 +376,16 @@
   font-weight: 200;
 }
 
+.us header {
+  margin-bottom: 20px;
+}
 .us h1 {
   width: 320px;
-  margin-top: 20px;
   font-family: "Parisienne", cursive;
   font-weight: 200;
   font-size: 3.2rem;
   text-align: center;
+  text-shadow: 6px 6px 4px #000;
 }
 .us .swiper {
   width: 100%;
@@ -409,6 +421,7 @@
   font-weight: 200;
   font-size: 3.2rem;
   text-align: center;
+  text-shadow: 6px 6px 4px #000;
 }
 .locations p {
   width: 220px;
