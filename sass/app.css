@@ -408,6 +408,12 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+.us .swiper-button-next, .us .swiper-button-prev {
+  color: #e7b442 !important;
+}
+.us .swiper-pagination-bullet-active {
+  background: #e7b442 !important;
+}
 
 .locations {
   display: flex;
